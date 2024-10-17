@@ -1,0 +1,147 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #49cebf;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #94cfe5;
+            padding: 20px 0;
+            border-bottom: 1px solid #eaeaea;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff4e50;
+            text-decoration: none;
+        }
+
+        nav {
+            display: inline-block;
+            margin-left: 50px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #c80004;
+        }
+
+        main {
+            margin: 40px 0;
+        }
+
+        section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #9fe6eb;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        section img {
+            margin: 10px;
+            border-radius: 5px;
+            max-width: 150px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin: 10px 0 5px;
+        }
+
+        input, textarea {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        button {
+            background-color: #9e1b1d;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #ff6b6b;
+        }
+
+        footer {
+            background-color: #ffffff;
+            padding: 20px 0;
+            border-top: 1px solid #eaeaea;
+            text-align: center;
+        }
+
+        footer a{
+            font-size: 14px;
+            color: black;
+            text-decoration: none;
+        }
+        footer a:hover{
+            color: darkviolet;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+
+            .container {
+                width: 90%;
+            }
+        }
